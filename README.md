@@ -27,7 +27,7 @@ The steps for data cleaning included:
 * Formatted income values into a consistent numerical/currency format;
 * Reviewed categorical values to ensure consistency before analysis.
 
-![Data Cleaning] data cleaning.png
+![Data Cleaning](data-cleaning.png)
 
 ## Data Processing
 
@@ -43,7 +43,6 @@ After cleaning the dataset, additional transformations were performed to make th
 
 The processed dataset was stored in the **Working Sheet** and used as the source for the Pivot Tables.
 
-![Working Sheet](screenshots/working-sheet.png)
 
 ## Data Analysis
 
@@ -62,7 +61,7 @@ The main analyses include:
   * Compared bike purchasing behavior among Adolescent, Middle Age, and Old customer groups.
 * Added interactive **slicers** for customer segmentation and dashboard filtering.
 
-![Pivot Table Analysis](screenshots/pivot-table.png)
+![Pivot Table Analysis](pivot-table.png)
 
 ## Data Visualization
 
@@ -77,7 +76,7 @@ The dashboard contains:
 
 Take a look at the Excel project **[here](Project.xlsx)**.
 
-![Bike Sales Dashboard](screenshots/dashboard.png)
+![Bike Sales Dashboard](dashboard(1).png)
 
 ## Insight
 
