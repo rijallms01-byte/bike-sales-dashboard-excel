@@ -27,7 +27,7 @@ The steps for data cleaning included:
 * Formatted income values into a consistent numerical/currency format;
 * Reviewed categorical values to ensure consistency before analysis.
 
-![Data Cleaning](screenshots/data-cleaning.png)
+![Data Cleaning] data cleaning.png
 
 ## Data Processing
 
