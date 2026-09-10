@@ -6,6 +6,7 @@ Interactive Bike Sales Dashboard built with Microsoft Excel, focusing on data cl
 In this project, I'm doing **data cleaning, data processing, data analysing, and data visualization using Microsoft Excel** to explore customer demographics and bike purchasing behavior. The goal was to transform raw customer data into an interactive **Bike Sales Dashboard** using PivotTables, charts, and slicers.
 
 This project contains **1,000 customer records** after data preparation, with information including income, gender, marital status, education, occupation, commute distance, region, age, and bike purchase status.
+Take a look at the  dataset **[here](Dataset.xlsx)**.
 
 The project was completed as a **guided project based on an Excel tutorial by Alex The Analyst**, with the purpose of practicing and strengthening my skills in Excel data analysis and dashboard development.
 
@@ -27,7 +28,7 @@ The steps for data cleaning included:
 * Formatted income values into a consistent numerical/currency format;
 * Reviewed categorical values to ensure consistency before analysis.
 
-![Data Cleaning](data-cleaning.png)
+![Data Cleaning](data_cleaning.png)
 
 ## Data Processing
 
@@ -61,7 +62,7 @@ The main analyses include:
   * Compared bike purchasing behavior among Adolescent, Middle Age, and Old customer groups.
 * Added interactive **slicers** for customer segmentation and dashboard filtering.
 
-![Pivot Table Analysis](pivot-table.png)
+![Pivot Table Analysis](pivot_table.png)
 
 ## Data Visualization
 
