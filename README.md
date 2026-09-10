@@ -1,149 +1,124 @@
 # bike-sales-dashboard-excel
 Interactive Bike Sales Dashboard built with Microsoft Excel, focusing on data cleaning, analysis, visualization, and dashboard development.
 
-# Bike Sales Dashboard — Microsoft Excel
+# Excel_Bike_Sales_Dashboard
 
-## Project Overview
+In this project, I'm doing **data cleaning, data processing, data analysing, and data visualization using Microsoft Excel** to explore customer demographics and bike purchasing behavior. The goal was to transform raw customer data into an interactive **Bike Sales Dashboard** using PivotTables, charts, and slicers.
 
-This project focuses on building an interactive **Bike Sales Dashboard using Microsoft Excel** to analyze customer demographics and purchasing behavior.
+This project contains **1,000 customer records** after data preparation, with information including income, gender, marital status, education, occupation, commute distance, region, age, and bike purchase status.
 
-The dashboard provides an overview of bike purchasing patterns based on factors such as **gender, income, commute distance, age group, marital status, region, and education level**.
+The project was completed as a **guided project based on an Excel tutorial by Alex The Analyst**, with the purpose of practicing and strengthening my skills in Excel data analysis and dashboard development.
 
-This project was completed as a **guided project based on the Excel tutorial by Alex The Analyst**, with additional practice in data cleaning, analysis, visualization, and dashboard development.
+## Data Cleaning (Preparation)
 
----
+The first step was to prepare the raw dataset for analysis.
 
-## Project Objectives
+The steps for data cleaning included:
 
-The main objectives of this project are:
+* Checked and removed duplicate records;
+* Standardized values in the **Marital Status** column:
 
-* Clean and prepare raw customer data for analysis
-* Identify and remove duplicate records
-* Standardize categorical data
-* Create age-group categories for easier analysis
-* Analyze customer purchasing behavior
-* Build Pivot Tables for data analysis
-* Create interactive visualizations
-* Develop an interactive Excel dashboard using slicers
+  * `M` → `Married`
+  * `S` → `Single`
+* Standardized values in the **Gender** column:
 
----
+  * `M` → `Male`
+  * `F` → `Female`
+* Formatted income values into a consistent numerical/currency format;
+* Reviewed categorical values to ensure consistency before analysis.
 
-## Dataset
+![Data Cleaning](screenshots/data-cleaning.png)
 
-The dataset contains customer demographic and purchasing information, including:
+## Data Processing
 
-* Customer ID
-* Marital Status
-* Gender
-* Income
-* Number of Children
-* Education
-* Occupation
-* Home Ownership
-* Number of Cars
-* Commute Distance
-* Region
-* Age
-* Purchased Bike
+After cleaning the dataset, additional transformations were performed to make the data more suitable for analysis.
 
-The **Purchased Bike** field indicates whether a customer purchased a bike or not.
+* Created a calculated **Age Brackets** column based on customer age;
+* Grouped customers into three categories:
 
----
+  * **Adolescent** — below 31 years
+  * **Middle Age** — 31–54 years
+  * **Old** — above 54 years
+* Standardized the commute distance category **More Than 10 Miles** for clearer visualization and analysis.
 
-## Data Cleaning & Preparation
+The processed dataset was stored in the **Working Sheet** and used as the source for the Pivot Tables.
 
-Several data preparation steps were performed before creating the dashboard:
+![Working Sheet](screenshots/working-sheet.png)
 
-* Removed duplicate records
-* Standardized marital status values
-* Standardized gender values
-* Reviewed and formatted income data
-* Checked categorical variables for consistency
-* Created an **Age Brackets** column using nested IF statements
-* Grouped customers into age categories to make the visualization easier to interpret
+## Data Analysis
 
-The age grouping was created to reduce the complexity of analyzing individual ages and make customer segments easier to understand.
+I used **PivotTables** to summarize customer characteristics and identify patterns in bike purchasing behavior.
 
----
+The main analyses include:
 
-## Analysis & Visualization
+* **Average Income by Gender and Purchased Bike**
 
-Pivot Tables were created to support the dashboard visualizations.
+  * Compared the average income of male and female customers based on whether they purchased a bike.
+* **Commute Distance and Purchased Bike**
 
-The analysis focuses on:
+  * Analyzed the number of bike purchasers and non-purchasers across different commute distance categories.
+* **Age Brackets and Purchased Bike**
 
-### 1. Average Income by Gender & Bike Purchase
+  * Compared bike purchasing behavior among Adolescent, Middle Age, and Old customer groups.
+* Added interactive **slicers** for customer segmentation and dashboard filtering.
 
-Examines differences in average income between male and female customers and compares customers who purchased and did not purchase a bike.
+![Pivot Table Analysis](screenshots/pivot-table.png)
 
-### 2. Customer Commute Distance
+## Data Visualization
 
-Analyzes customer commute distance and its relationship with bike purchasing behavior.
+The analysis was visualized in an interactive **Bike Sales Dashboard** using Excel charts, PivotTables, and slicers.
 
-### 3. Customer Age Brackets
+The dashboard contains:
 
-Groups customers into age categories to identify which age groups show stronger bike purchasing behavior.
+* **Average Income by Gender & Purchased Bike** — Bar Chart
+* **Customer Commute Distance** — Line Chart
+* **Customer Age Brackets** — Pie Chart
+* Slicers for filtering customer characteristics such as **Marital Status, Region, and Education**
 
-## Pivot Tables were used as the foundation for creating the dashboard visualizations.
+Take a look at the Excel project **[here](Project.xlsx)**.
 
-## Interactive Dashboard
+![Bike Sales Dashboard](screenshots/dashboard.png)
 
-The dashboard uses **Excel Slicers** to allow users to filter the analysis interactively.
+## Insight
 
-Available filters include:
+Based on the analysis, several patterns can be observed:
 
-* Marital Status
-* Region
-* Education
+* Male customers who purchased a bike have a higher average income than male customers who did not purchase one.
+* Female customers who purchased a bike also have a slightly higher average income than female customers who did not purchase one.
+* Customers with a **5–10 mile commute** represent the largest group in the dataset, although a larger number of them did not purchase a bike.
+* **Middle Age customers** represent the largest age group and account for the highest number of bike purchases.
+* The Middle Age group has **59 bike purchasers**, compared with 9 Adolescent and 11 Old customers.
+* Customers in the **0–1 mile commute** category show a relatively high proportion of bike purchases compared with other commute groups.
 
-## The slicers are connected to the dashboard's Pivot Tables, allowing multiple visualizations to respond to the selected filters.
+These findings provide an overview of how customer income, age, and commuting distance relate to bike purchasing behavior.
 
-## Tools & Skills
+## What I Learned
 
-**Tools**
+Through this project, I gained hands-on experience with:
 
-* Microsoft Excel
-* Pivot Tables
-* Pivot Charts
-* Excel Slicers
+* Data cleaning and preparation using Microsoft Excel;
+* Standardizing categorical data;
+* Creating calculated columns and age categories;
+* Using PivotTables to summarize and explore data;
+* Creating Pivot Charts for data visualization;
+* Using slicers to build interactive dashboards;
+* Presenting analytical findings through visual storytelling;
+* Structuring an Excel project as part of a professional Data Analytics portfolio.
 
-**Skills Practiced**
-
-* Data Cleaning
-* Data Transformation
-* Data Analysis
-* Data Visualization
-* Dashboard Development
-* Interactive Reporting
-
----
-
-## Key Learning Outcomes
-
-Through this project, I practiced the end-to-end workflow of a basic data analytics project:
-
-**Raw Data → Data Cleaning → Data Transformation → Pivot Table → Visualization → Interactive Dashboard**
-
-The project also helped me understand how raw customer data can be transformed into a dashboard that makes patterns and relationships easier to explore.
-
----
-
-## Dashboard Preview
-
-![Bike Sales Dashboard](screenshots/bike-sales-dashboard.png)
-
----
+This project strengthened my understanding of the workflow from **raw data to an interactive dashboard** and provided practical experience in applying Excel for data analysis.
 
 ## Project Reference
 
-This project was completed as a guided learning project based on an Excel tutorial by **Alex The Analyst**.
+This project was completed as a guided project based on a tutorial by **Alex The Analyst**.
 
-The tutorial covers the process of cleaning data, creating Pivot Tables and visualizations, and developing an interactive Excel dashboard.
+The tutorial served as a learning reference for the Excel data cleaning, PivotTable, visualization, and dashboard development process.
 
----
+## Tools
 
-## Author
+* Microsoft Excel
+* PivotTables
+* Pivot Charts
+* Slicers
+* Excel Formulas
 
-**Rizal Rahmadi**
 
-Aspiring Data Analyst | Excel | SQL | Power BI
