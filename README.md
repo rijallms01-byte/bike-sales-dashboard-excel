@@ -1,6 +1,7 @@
 # bike-sales-dashboard-excel
 Interactive Bike Sales Dashboard built with Microsoft Excel, focusing on data cleaning, analysis, visualization, and dashboard development.
 
+![Bike Sales Dashboard](dashboard.png)
 # Excel_Bike_Sales_Dashboard
 
 In this project, I'm doing **data cleaning, data processing, data analysing, and data visualization using Microsoft Excel** to explore customer demographics and bike purchasing behavior. The goal was to transform raw customer data into an interactive **Bike Sales Dashboard** using PivotTables, charts, and slicers.
